@@ -1,0 +1,49 @@
+<!--Updated : 2021/1/15-->
+
+<!--encode  : UTF-8  -->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ヘルプ</title>
+</head>
+
+<body>
+    <h1 name="top">ヘルプ</h1>
+    ここはELEMENT++のヘルプページです．
+
+    <h1>目次</h1>
+
+    <h2>実行時</h2>
+    <a href="#click">exeファイルをクリックしても動かない</a> <br>
+    <a href="#linux">Mac/Linuxで実行したいのですが</a> <br>
+    <a href="#close">Ctrl+Cを長押ししてもプログラムが終了しない</a><br>
+    <a href="#icon">アイコン画像が実行ファイルに設定されていない</a><br>
+
+    <h2>ゲームの動作</h2>
+    <a href="#cursor">カーソル枠が勝手に移動する</a><br>
+
+    <h1>質問と回答</h1>
+
+    <h2>実行時</h2>
+    <h2 id="click">Q. exeファイルをクリックしても動かない</h2>
+    A. Cygwin上で実行してください．
+    <h2 id="linux">Q. Mac/Linuxで実行したいのですが</h2>
+    A. 動作確認対象外です．正常に動作しない可能性があるため，実行は自己責任でお願いします．
+    <h2 id="close"> Q. Ctrl+Cを長押ししてもプログラムが終了しない</h2>
+    A. 申し訳ありません．プログラムの動作がとてつもなく重い場合があるため，プログラムが終了しないことがあります．根気強く押し続けてください．
+    <h2 id="icon">Q. アイコン画像が実行ファイルに設定されていない</h2>
+    A. おそらく，icon.oが生成されていません．Cygwinの32ビット版の場合，windresというコマンドが使用できます．Cygwinで次のコマンドを実行してください．<br>
+    <code><font size=5>% windres icon.rc icon.o</font></code>
+
+    <h2>ゲームの動作</h2>
+    <h2 id="cursor">Q. カーソル枠が勝手に移動する</h2>
+    A. カーソル枠は，クリックした枠が下に落ちると同時に下に移動します．そのため，これは正常な動作です．
+
+
+    <br><a href="#top">トップに戻る</a>
+</body>
+
+</html>
